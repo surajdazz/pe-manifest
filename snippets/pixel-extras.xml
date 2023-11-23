@@ -45,4 +45,15 @@
 
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
+
+  <!-- Dubai Repos -->
+  <project name="surajdazz/device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="13"/>
+  <project name="surajdazz/device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="13"/>
+  <project name="ArrowOS-Devices/android_kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1" />
+  <project path="hardware/motorola" name="surajdazz/hardware_motorola" remote="github" revision="13"/>
+  <project name="surajdazz/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="13" clone-depth="1" />
+  <project name="surajdazz/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="13" clone-depth="1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
+  <project name="surajdazz/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai"/>
+
 </manifest>

@@ -5,10 +5,10 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init --depth=1 --no-repo-verify -u https://github.com/surajdazz/pe-manifest.git --git-lfs -b thirteen-plus
 
 # Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
 ### Build ###
