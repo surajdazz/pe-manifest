@@ -10,11 +10,8 @@
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
   <!-- General repos -->
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel-plus" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
@@ -55,5 +52,11 @@
   <project name="surajdazz/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="13" clone-depth="1" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20"/>
   <project name="surajdazz/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai"/>
+
+  <project path="frameworks/base" name="surajdazz/frameworks_base" remote="github" revision="thirteen-plus"/>
+  <project path="packages/apps/Settings" name="surajdazz/packages_apps_Settings" remote="github" revision="thirteen-plus"/>
+  <project path="device/custom/sepolicy" name="surajdazz/device_custom_sepolicy" remote="github" revision="thirteen"/>
+  <project path="vendor/aosp" name="surajdazz/vendor_aosp" remote="github" revision="thirteen-plus"/>
+  <project path="vendor/pixel-framework" name="surajdazz/vendor_pixel-framework" remote="github" revision="thirteen-plus"/>
 
 </manifest>
